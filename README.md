@@ -1,8 +1,8 @@
-Showdown Class Extension
-========================
+Showdown Classify
+=================
 
 
-Markdown syntax sugar for showdown output
+Markdown html class syntax sugar for showdown output
 
 simple add `{.classname} to the end of image def
 
@@ -21,11 +21,14 @@ Instalation
 -----------
 
 ```
-bower install showdown-class-extension
+bower install showdown-classify
 ```
 
 ```
-npm install showdown-class-extension
+npm install showdown-classify
 ```
+
+Usage
+-----
 
 

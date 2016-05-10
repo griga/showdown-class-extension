@@ -1,0 +1,23 @@
+{
+  "name": "showdown-classify",
+  "description": "Markdown image class syntax sugar",
+  "main": "index.js",
+  "authors": [
+    "griga"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "showdown",
+    "classify",
+    "class",
+    "extension"
+  ],
+  "homepage": "https://github.com/griga/showdown-classify",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
