@@ -1,5 +1,6 @@
 {
   "name": "showdown-classify",
+  "version": "0.1.0",
   "description": "Markdown image class syntax sugar",
   "main": "index.js",
   "authors": [
