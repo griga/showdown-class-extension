@@ -31,4 +31,18 @@ npm install showdown-classify
 Usage
 -----
 
+example usage in nodejs 
 
+```javascript
+const showdown = require('showdown');
+require('showdown-classify');
+
+let converter = new showdown.Converter({ extensions: ['classify'] });
+let text = '![image alt](http://lorempixel.com/400/200){.thumbnail}';
+let html = converter.makeHtml(text);
+
+console.log(html)
+
+// Output:
+// <p><img class="thumbnail" src="http://lorempixel.com/400/200" alt="image alt" ></p>
+```
